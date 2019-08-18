@@ -1,0 +1,6 @@
+- name: myapp3
+  port: 12346
+  path: app3
+  memory: 128M
+  services:
+    - my-hdi-container
