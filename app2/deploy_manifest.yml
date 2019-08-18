@@ -1,0 +1,6 @@
+- name: myapp2-db
+  path: db
+  memory: 256M
+  no-route: true
+  services:
+    - my-hdi-container
