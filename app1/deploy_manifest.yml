@@ -1,0 +1,6 @@
+- name: myapp1
+  port: 12345
+  path: app
+  memory: 128M
+  services:
+    - my-hdi-container
